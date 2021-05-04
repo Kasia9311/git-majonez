@@ -1,0 +1,34 @@
+  205  mkdir git-majonez
+  206  cd git-majonez
+  207  git init
+  208  touch main.cpp
+  209  echo Goodbye World > main.cpp
+  210  git add main.cpp
+  211  git commit -m "Initial commit"
+  212  echo Hello World > main.cpp
+  213  git add main.cpp
+  214  git commit -m "Farewell changed"
+  215  git remote add origin https://github.com/Kasia9311/git-majonez.git
+  216  git push -u origin master
+  217  git branch cs
+  218  git checkout cs
+  219  git log
+  220  git reset --hard Farewell changed
+  221  git reset --hard "Farewell changed"
+  222  git reset --hard HEAD
+  223  git log
+  224  git reset --hard HEAD^
+  225  git log
+  226  echo Goodbye Coders School > main.cpp
+  227  git add main.cpp
+  228  git commit -m "Greetings"
+  229  git log
+  230  git push origin cs
+  231  git checkout master
+  232  git merge cs
+  233  git mergetool
+  234  code main.cpp
+  235  git add main.cpp
+  236  git commit -m "Merge branch cs"
+  237  history
+  238  history | tail +204 > history.txt
